@@ -1,1 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
+header {
+  padding: 2rem;
+  background: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.proposal-card {
+  background: #161b22;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.vote-buttons button {
+  margin: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.yes-btn {
+  background: #238636;
+  color: white;
+}
+
+.no-btn {
+  background: #da3633;
+  color: white;
+}
+
+.results {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.progress-bar {
+  display: flex;
+  height: 10px;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.yes-bar {
+  background: #238636;
+  width: 0%;
+}
+
+.no-bar {
+  background: #da3633;
+  width: 0%;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 0.8rem;
+  border-top: 1px solid #30363d;
+  background: #161b22;
+}
